@@ -18,5 +18,7 @@ public class WritingTest {
 	     ws.getRow(0).createCell(2).setCellValue("results");
 	     FileOutputStream fos=new FileOutputStream(srcFile);
 	     wb.write(fos);
+		System.out.println("GIT EDIT");
+		
 	}
 }
